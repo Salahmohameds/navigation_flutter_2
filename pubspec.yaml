@@ -1,5 +1,5 @@
-name: untitled13
-description: "A new Flutter project."
+name: navigation_flutter_2
+description: "A Flutter notes app with navigation."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -35,8 +35,15 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   
-  # Flutter Bloc for state management
+  # SQLite database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  # Value equality for states/events
+  equatable: ^2.0.5
+  # BLoC state management
   flutter_bloc: ^8.1.4
+  # Shared preferences for storing user data
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
